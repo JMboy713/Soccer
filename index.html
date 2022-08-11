@@ -6,7 +6,7 @@
 </head>
 <style>
 a{
-  color:purple;
+  color: purple;
   text-decoration: none;
 
 }
@@ -24,37 +24,50 @@ h1{
 }
 #lineup{
   text-align: center;
-  border: none;
+  border: 2px solid red;
+  width: 120px;
   margin:0;
+  margin-left: 47%;
+
 }
 
 img{
+  margin-top: 5px;
   margin-left: 40%;
 
 }
-h2{
+
+#list{
   border-top: 1px solid black;
-
-
   margin: 5px;
-}
 
+}
+#klineup{
+  border:10px solid red;
+}
+@media (max-width:800px) {
+  #lineup{
+margin-left: 40%;
+}
+}
 </style>
 <body>
   <h1><a href="index.html">Quatar World cup Team Korea</a></h1>
   <a href="https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/qatar2022"><img src="worldcup.jpg" width="20%"  ></a>
+  <div id="list">
   <h2> 주요 선수 명단</h2>
   <ol>
   <li><a href="Sonny.html" class="player">손흥민 (aka.Sonny)</a></li>
   <li><a href="kim.html" class="player">김민재</a></li>
   <li><a href="Hwang.html" class="player">황희찬</a></li>
   </ol>
+  </div>
 
   <h3 id="lineup"> 예상 라인업 </h3>
 
   <p>
 
-<br><a href="https://www.kfa.or.kr/"> <img src="lineup.jpg" width="20%" ></a>
+<br><a href="https://www.kfa.or.kr/"> <img src="lineup.jpg" width="20%" id="klineup" ></a>
 </p>
 </body>
 </html>
