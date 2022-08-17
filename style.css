@@ -1,0 +1,65 @@
+<style>
+a{
+  color: purple;
+  text-decoration: none;
+}
+h1{
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+
+}
+#head{
+  border-bottom: 1px solid  gray;
+}
+.player{
+  text-decoration: underline;
+  color: black;
+}
+#lineup{
+  text-align: center;
+  border: none;
+  margin:0;
+  text-decoration: none;
+}
+#list{
+  border-right: 1px solid gray;
+  text-decoration: none;
+}
+img{
+  margin-top: 5px;
+  margin-left: 70%;
+
+}
+div{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#article{
+  width:5000px;
+
+}
+p{
+  text-align: center;
+  margin-left: 10%;
+  padding: 10px;
+}
+.player{
+  text-align: left;
+  width:5000px;
+}
+@media (max-width:700px) {
+  .player{
+    width:400px;
+  }
+  img{
+    margin-top: 5px;
+    margin-left: 0%;
+}
+div{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+}
+
+</style>
